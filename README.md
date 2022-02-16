@@ -12,7 +12,7 @@ https://twitter.com/okieselb/status/1308428824879812608
 
 The code is fairly simple, to use it download the PS1 file and upload to your tenant as a Powershell script: https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/powershell
 
-Once there, assign it to any group you currently use for Autopilot deployments. The code is currently configured to backup the backups made by the Intune Agent, not the current IME log itself, all files remain unmodified, only copies are made.
+Once there, assign it to any group you currently use for Autopilot deployments. The code is currently configured to backup the backups made by the Intune Agent not the current IME log itself, all files remain unmodified, only copies are made.
 
 
 Any file with a .log extension in the IME logs directory can be retreived with MDMDiagnosticsTool.exe or the Remote Diagnostics action in the MEM console:
