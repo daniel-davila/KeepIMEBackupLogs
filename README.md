@@ -4,7 +4,7 @@ The IntuneManagementExtension.log documents Win32 app and Powershell installatio
 
 This code was code was created to overcome those limitations.
 
-Oliver Kieselbach - an Microsoft MVP out of Germany had posted a method to support this based on his research with ProcMon, at the time the IME logs could be managed via registry keys, however this ability was undocumented/unsupported. At some point in early 2021, Microsoft updated their agent and the registry hacks stopped working. Here's my twitter thread with Oliver:
+Oliver Kieselbach - a Microsoft MVP out of Germany had posted a method to support this based on his research with ProcMon, at the time the IME logs could be managed via registry keys, however this ability was undocumented/unsupported. At some point in early 2021, Microsoft updated their agent and the registry hacks stopped working. Here's my twitter thread with Oliver:
 https://twitter.com/okieselb/status/1308428824879812608
 
 
