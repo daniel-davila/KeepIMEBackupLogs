@@ -6,6 +6,7 @@
 	 Created by:   	Daniel Davila
 	 Organization: 	Dell Technologies
 	 Filename:     	IMEBackups.ps1
+	 Version: 	1.0
 	===========================================================================
 	.DESCRIPTION
 		A script to be run as system and deployed during Autopilot 
