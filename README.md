@@ -18,8 +18,8 @@ Once there, assign it to any group you currently use for Autopilot deployments. 
 Any file with a .log extension in the IME logs directory can be retreived with MDMDiagnosticsTool.exe or the Remote Diagnostics action in the MEM console:
 https://docs.microsoft.com/en-us/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10
 
-This script creates a copy of itself to the IME log directory, and creatse a scheduled task that executes every 5 minutes until the backup threshold is met ($MaxNumberofBackups). You can edit as needed, but 5 backups is usually enough to have visibility on the initial Win32 tasks were processed during Autopilot provisioning.
+This script creates a copy of itself to the IME log directory, then it creates a scheduled task that is triggered every 5 minutes and system startup until the backup threshold is met ($MaxNumberofBackups). You can edit as needed, but 5 backups is usually enough to have visibility on the initial Win32 and Powersehll tasks were processed during Autopilot provisioning. This includes information on Delivery Optimization, access to the Microsoft Content Delivery Network, System reboots, Exit codes and detetections, the status of software depedendcies and supercedence, and more. 
 
 ## Support
 
-This script is provided as-is, use at your own risk.
+This script is provided as-is, read the script code and adjust as necessary. Use at your own risk.
