@@ -1,6 +1,6 @@
 # About The Project
 
-I'm a Design Architect for Dell and one of my roles is supporting customers onboarding to leverage Microsoft's Autopilot features with Intune. 
+I'm a Design Architect for Dell and one of my roles is supporting customer onboarding to leverage Microsoft's Autopilot features with Intune. 
 One of the main issues with troubleshooting Autopilot are Win32 application installations, which is one of the most used methods for applications installs due to Microsoft's design limitations supporting Line-of-Business and Win32 apps simultaneously during Autopilot. The IntuneManagementExtension.log documents Win32 app and Powershell installations, among other things like reboots and reporting. The fatal flaw for the log is that it gets overwritten, and there's no way to control how big or how many backup logs are retained.
 
 This code was code was created to overcome those limitations.
