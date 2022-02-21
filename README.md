@@ -5,13 +5,13 @@ One of the main issues with troubleshooting Autopilot are Win32 application inst
 
 This project was created to overcome those limitations and it all started with Oliver Kieselbach - a Microsoft MVP out of Germany.
 
-Oliver posted a method to support retaining IME logs based on his research with ProcMon, at the time of his post the IME logs could be managed via registry keys, however this ability was undocumented/unsupported. At some point in early 2021, Microsoft updated their agent and the registry hacks stopped working. Here's my twitter thread with Oliver for the historical context:
+Oliver posted a method to support retaining IME logs based on his research with ProcMon, which he found at the time of his post could be managed via registry keys, however this ability was undocumented/unsupported. At some point in early 2021, Microsoft updated their agent and the registry hacks stopped working. Here's my twitter thread with Oliver for the historical context:
 https://twitter.com/okieselb/status/1308428824879812608
 
 
 ## Usage
 
-The code is fairly simple, to use it download the PS1 file and upload to your tenant as a Powershell script: https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/powershell
+The code is fairly simple, to use it download the PS1 file and upload to your tenant as a Powershell script (this is the link in the console: https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/powershell
 
 Once there, assign it to any group you currently use for Autopilot deployments. The code is currently configured to backup the backups made by the Intune Agent not the current IME log itself, all files remain unmodified, only copies are made.
 
